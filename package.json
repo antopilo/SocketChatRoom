@@ -1,0 +1,17 @@
+{
+  "name": "chatroomapp",
+  "version": "1.0.0",
+  "description": "A simple chat room application",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "author": "Antoine Pilote",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
+}

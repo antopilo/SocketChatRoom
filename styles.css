@@ -1,0 +1,56 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+#message-container {
+    width: 80%;
+    max-width: 1200px;
+}
+
+.message {
+    padding: 5px;
+}
+
+.message-annoucement {
+    text-align: center;
+    padding: 5px;
+}
+
+.message-you{
+    text-align: right;
+    padding: 5px;
+}
+
+.message-you .message-content {
+    border-radius: 25px ;
+    padding: 10px;
+    display: inline-block;
+    color: white;
+    background-color: #1789fe;
+    position: absolute;
+}
+
+.message .message-content {
+    border-radius: 25px ;
+    padding: 10px;
+    display: inline-block;
+    background-color: #e5e5ea;
+}
+
+#send-container {
+    position: fixed;
+    padding-bottom: 30px;
+    bottom: 0;
+    background-color: white;
+    max-width: 1200px;
+    width: 80%;
+    display: flex;
+}
+
+#message-input {
+    flex-grow: 1;
+    min-height: 62px;
+    max-height:200px;
+}
