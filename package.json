@@ -9,7 +9,7 @@
   "author": "Antoine Pilote",
   "license": "ISC",
   "dependencies": {
-    "socket.io": "^2.2.0"
+    "socket.io": "^2.5.0"
   },
   "devDependencies": {
     "nodemon": "^1.19.2"
